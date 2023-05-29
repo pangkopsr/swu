@@ -36,15 +36,15 @@
 //เรียกแผนที่ 
 // 4. Set center and zoom
  
-// var map = L.map('map').setView([13.743796074955224, 100.56520791561154], 14,);
-// var map = L.map("map", {center: [13.743796074955224, 100.56520791561154], zoom: 17});
+ var map = L.map('map').setView([13.743796074955224, 100.56520791561154], 14,);
+ var map = L.map("map", {center: [13.743796074955224, 100.56520791561154], zoom: 17});
  
 // 5. add based map ต้องการให้แผนที่ฐานเป็นแบบไหน
  
-// var OSM = L.tileLayer(
-// "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", 
-// {attribution: "&copy; OpenStreetMap"}
-// ).addTo(map);
+ var OSM = L.tileLayer(
+ "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", 
+ {attribution: "&copy; OpenStreetMap"}
+ ).addTo(map);
  
 // 6. Layer Groups
 var OSM = L.tileLayer(
